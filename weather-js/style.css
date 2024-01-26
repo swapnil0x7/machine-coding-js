@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid;
+	height: 10rem;
+	width: 75;
+	margin: 2rem;
+	align-items: center;
+}
+
+.container div {
+	width: 33.33%;
+	text-align: center;
+}
+
+.search-container {
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+	justify-content: center;
+}
