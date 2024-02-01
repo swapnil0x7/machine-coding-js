@@ -1,0 +1,15 @@
+.card {
+	height: 5rem;
+	width: 10rem;
+	background-color: bisque;
+	margin: 1rem;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 1rem;
+	opacity: 0;
+}
+
+.show {
+	display: block;
+	opacity: 1;
+}
